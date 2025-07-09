@@ -10,12 +10,14 @@ import MyBooking from './pages/MyBookings'
 import { Toaster } from "react-hot-toast";
 import Footer from "./components/Footer";
 
+
 const App = () => {
   const isAdminRoute = useLocation().pathname.startsWith("/admin");
   return (
     <>
       <Toaster />
       {!isAdminRoute && <Navbar />}
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/movies" element={<Movies />} />
