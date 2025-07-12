@@ -17,7 +17,7 @@ export const assets = {
 export const dummyTrailers = [
     {
         image: "https://img.youtube.com/vi/WpW36ldAqnM/maxresdefault.jpg",
-        videoUrl: "https://www.youtube.com/watch?v=WpW36ldAqnM"
+        videoUrl: 'https://www.youtube.com/watch?v=WpW36ldAqnM'
     },
     {
         image: "https://img.youtube.com/vi/-sAOWhvheK8/maxresdefault.jpg",
@@ -31,7 +31,7 @@ export const dummyTrailers = [
         image: "https://img.youtube.com/vi/umiKiW4En9g/maxresdefault.jpg",
         videoUrl: 'https://www.youtube.com/watch?v=umiKiW4En9g'
     },
-];
+]
 
 const dummyCastsData = [
     { "name": "Milla Jovovich", "profile_path": "https://image.tmdb.org/t/p/original/usWnHCzbADijULREZYSJ0qfM00y.jpg", },
